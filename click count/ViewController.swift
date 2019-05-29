@@ -59,7 +59,7 @@ class ViewController: UIViewController {
     //change color
   @objc func changeBgColor() {
     if self.view.backgroundColor == UIColor.darkGray {
-            self.view.backgroundColor = UIColor.blue
+            self.view.backgroundColor = UIColor.purple
         }else{
             self.view.backgroundColor = UIColor.darkGray
         }
